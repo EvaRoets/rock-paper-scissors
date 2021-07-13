@@ -65,7 +65,6 @@ button:hover {
 
 }
 
-
 img {
     width: 100px;
     padding: 15px;
@@ -80,6 +79,42 @@ img:hover {
     box-shadow: 5px 10px 18px #bff0ec;
 }
 
+.playerChoice {
+    background-color: #5E8B7E;
+    border: solid 10px #5E8B7E;
+    border-radius: 40px;
+    font-family: 'Source Code Pro', monospace;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 10px 18px #2F5D62;
+}
+
+.sheldonChoice {
+    background-color: #5E8B7E;
+    border: solid 10px #5E8B7E;
+    border-radius: 40px;
+    font-family: 'Source Code Pro', monospace;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 10px 18px #2F5D62;
+}
+
+.result {
+    display: block;
+    background-color: #5E8B7E;
+    border: solid 10px #5E8B7E;
+    border-radius: 40px;
+    color: #bff0ec;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    box-shadow: 5px 10px 18px #2F5D62;
+}
 
 footer {
     background-color: #bff0ec;
