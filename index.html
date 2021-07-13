@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>$</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+<header>
+    <h1>Rock Paper Scissors</h1>
+</header>
+<div class="gameBody">
+    <div class="gameButtons">
+        <div id="rock">
+            <img src="1rock.png" alt="rock">
+        </div>
+        <div id="paper">
+            <img src="2paper.png" alt="paper">
+        </div>
+        <div id="scissors">
+            <img src="3scissors.png" alt="scissors">
+        </div>
+    </div>
+    <div class="playButton">
+        <button id="play">Play</button>
+    </div>
 
+    <div class="playerChoices">
+        <div class="playerChoice"></div>
+        <div class="sheldonChoice"></div>
+    </div>
+    <div class="result">
+        <span id="playerScore">0</span>:<span id="sheldonScore">0</span><br/><br/>
+        <p>It's a draw! Play again.</p>
+    </div>
+</div>
+<footer>
+    &copy; BeCode - Eva Roets 2021
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
+
