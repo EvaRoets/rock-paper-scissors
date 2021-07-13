@@ -1,0 +1,51 @@
+/*color scheme*/
+color1 {color: #2F5D62;}
+color2 {color: #5E8B7E;}
+color3 {color: #A7C4BC;}
+color4 {color: #DFEEEA;}
+
+body {
+    background-color: #5E8B7E;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #bff0ec;
+}
+
+h1 {
+    color: #2F5D62;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.gameBody {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Source Code Pro', monospace;
+    color: #bff0ec;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.gameButtons {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #bff0ec;
+    color: #5E8B7E;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+}
