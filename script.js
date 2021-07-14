@@ -24,21 +24,7 @@ scissors.onclick = function () {
 }
 
 //TODO generate random computer choice
-const gameOptions = ["rock", "paper", "scissors"];
-const randomOption = gameOptions[Math.floor(Math.random() * gameOptions.length)];
-
-
 //TODO display computer choice
-for (let gameOption of gameOptions) {
-    if (gameOptions[0] === randomOption) {
-        sheldonChoice.innerHTML = "Sheldon choose rock!"
-    } else if (gameOptions[1] === randomOption) {
-        sheldonChoice.innerHTML = "Sheldon choose paper!"
-    } else {
-        sheldonChoice.innerHTML = "Sheldon choose scissors!"
-
-    }
-}
 //TODO list possible outcomes
 //TODO compare player choice to computer choice
 //TODO display winner/loser
