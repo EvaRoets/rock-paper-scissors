@@ -24,6 +24,10 @@ scissors.onclick = function () {
 }
 
 //TODO generate random computer choice
+const gameOptions = ["rock", "paper", "scissors"];
+const randomOption = gameOptions[Math.floor(Math.random() * gameOptions.length)];
+
+
 //TODO display computer choice
 //TODO list possible outcomes
 //TODO compare player choice to computer choice
