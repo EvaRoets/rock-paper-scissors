@@ -1,5 +1,7 @@
 # Rock paper scissors 🗿📃✂️
 
+![rock-paper-scissors](https://user-images.githubusercontent.com/84382812/136974467-c58c4020-f868-44f0-a0b9-b07cfdb0a4fa.PNG)
+
 ## Objective
 - Select a random element
 - Conditional statements (if)
